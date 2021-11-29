@@ -16,7 +16,7 @@ import InputForm from "../pages/InputForm";
 function Main(props) {
   const [cardList, setcardList] = useState(null);
 
-  const URL = "http://localhost:5000/cardlist/";
+  const URL = "https://backend-addmeqrc.herokuapp.com/cardlist/";
 
   const getcardList = async () => {
     const response = await fetch(URL);
