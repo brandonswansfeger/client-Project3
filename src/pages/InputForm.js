@@ -67,7 +67,7 @@ const handleSubmit = (event) => {
   return (
 <div className="InputForm">
  <form className="RegForm" onSubmit={handleSubmit}>
- <h7> <strong>Step 1:</strong> Enter desired contact details and the QR Code below will update as you type. <br/><strong>Step 2:</strong> Simply take a picture with phone or save as image to your local computer.</h7>
+ <div className="H7"> <strong>Step 1:</strong> Enter desired contact details and the QR Code below will update as you type. <br/><strong>Step 2:</strong> Simply take a picture with phone or save as image to your local computer.</div>
    <div className="InputField">
       <div className="FormField">
             <p className="Label">
