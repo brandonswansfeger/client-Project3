@@ -163,7 +163,7 @@ const handleSubmit = (event) => {
                 <option>Wedding, Events & Meetings</option>
                 <option>Other</option>
             </select>
-          <button type="button" onClick={"/cardList"}>VIRTUAL DIRECTORY</button>
+          {/* <button type="button" onClick={"/cardList"}>VIRTUAL DIRECTORY</button> */}
           </div>
            <div className="QRCodeBox">
           <h4 style={{fontWeight:"bold"}}>QR Code (to save image, <br/> right-click -> Save Image As)</h4>

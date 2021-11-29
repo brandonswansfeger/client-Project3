@@ -497,6 +497,7 @@ textarea {
          flex-direction: column;
          justify-content: center;
          align-items: center;
+         height: 192px;
          border-radius:12px;
          -webkit-border-radius:12px;
          -moz-border-radius:12px;
