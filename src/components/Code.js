@@ -17,7 +17,7 @@ return (
           <QRCode
   value={vCard.getFormattedString()}
   size={128}
-  bgColor={"#00ff0080"}
+  bgColor={"lightblue"}
   fgColor={"#013e5d"}
   level={"L"}
   includeMargin={false}

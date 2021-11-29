@@ -6,7 +6,7 @@ html{
   padding-bottom: 200px;
   }
  body {
-    background-image: url("https://img.wallpapersafari.com/desktop/1920/1080/83/15/rGF15z.jpg");
+    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/08-2018/3-nature-wallpaper-mountain.1280.jpg");
     /* margin-top: 40px; */
     background-position:center;
    background-size: 100% 100%;
@@ -27,22 +27,22 @@ html{
     }     
 
     .RegForm {
- margin-top: 40px;
+ /*margin-top: 40px;
  margin-bottom: 60px;
- display: flex;
+ */display: flex;
  flex-direction: column;
  max: width 1000px 4px;
  width:90%;
- background-color:rgb(0,0,0,0.4);
- margin:auto;
- color:#FFFFFF;
- padding:10px 0px 10px 0px;
- text-align:center;
+ background-color:rgb(0,0,0,0.6);
+ /*margin:auto;
+ */color:#FFFFFF;
+ /*padding:10px 0px 10px 0px;
+ */text-align:center;
  border-radius:15px;
- -webkit-border-radius:15px ;
- -moz-border-radius:15px ;
- -ms-border-radius:15px ;
- -o-border-radius:15px ;
+ -webkit-border-radius:15px;
+ -moz-border-radius:15px;
+ -ms-border-radius:15px;
+ -o-border-radius:15px;
 }  
 
 
@@ -145,9 +145,9 @@ justify-content: space-between;
     *//*justify-content: space-evenly;
     */align-items: flex-start;
     justify-content: space-around;
-    margin:auto;
+    /* margin: 20%; */
     color:#366473;
-    padding:10px 0px 10px 0px;
+    /* padding:20px; */
     text-align:center;
     border-radius: 15px;
     row-gap: 20px;
@@ -164,14 +164,16 @@ justify-content: space-between;
      /* flex-wrap: wrap; */
      align-items: center;
      /* justify-content: space-evenly; */
-      background-color:rgb(0,0,0,0.4);
+      background-color:rgb(0,0,0,0.6);
    max-width:1500px;
-   margin:auto;
+   margin: 50px;
    margin-top: 10px;
-}q
+
+   padding:20px;
+}
   
   form{
-      padding:5px;
+      /* padding:20px; */
    
   } 
   .rowBtn {
@@ -201,11 +203,13 @@ justify-content: space-between;
      width: 250px;
      min-width: 200px;
      border:2px solid #fcfeff;
-     border-radius: 6px;
-     height: 166px;
-     
-     
-  }
+     border-radius: 15px;
+     height: 192px;
+     -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+     -ms-border-radius: 15px;
+     -o-border-radius: 15px;
+}
   
   #name{
        width:100%;
@@ -234,12 +238,35 @@ margin-top: 40px;
 
 
 }
-.H7 { font-family: 'Helvetica', sans-serif; font-size: 18px !important; background-color:rgba(0, 00, 000, 0.2); text-transform:none; padding: 10px; color: white; border-radius: 6px; -webkit-border-radius: 6px; -moz-border-radius: 6px; -ms-border-radius: 6px; -o-border-radius: 6px;
-width: 100%;
+.H7 {
+    display: flex;
+    justify-items: center;
+    font-size: 15pt;
+    font-family: Helvetica;
+    flex-direction: column;
+    width: 90%;
+    background-color:rgb(0, 0, 0, 0.6);
+    color: white;
+    align-self: center;
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: ;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 50px;
+    margin-right: 20px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    -webkit-border-radius: 8;
 }
 
+
 input {
-       width: 200px;
+       width: 175px;
        background-color:rgba(243, 236, 236, 0.2);
        /*left:200px;
        */top:-37px;
@@ -248,9 +275,9 @@ input {
        border-radius: 6px;
        /*padding: 0 22px;
        */font-size: 14px;
-       margin-left: 10px;
-       margin-right: 10px;
-       margin-bottom: 10px;
+       margin-left: 5px;
+       margin-right: 5px;
+       margin-bottom: 5px;
        margin-top:0;
        background-color: 20%;
        input:-internal-autofill-selected ;
@@ -439,7 +466,7 @@ textarea {
      outline:none;
     }  */
     button{
-     background-color:#5390F5;
+     background-color: rgb(0,0,0,0.6);
      display:block;
      margin: 10px;
      text-align:center;

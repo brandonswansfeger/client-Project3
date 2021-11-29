@@ -3,7 +3,7 @@ import { useState } from "react";
 import QRCode from "qrcode.react";
 import vcardsJs from "vcards-js";
 import { useHistory } from "react-router-dom"
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 
 function InputForm(props) {
@@ -38,7 +38,6 @@ function InputForm(props) {
   }
 let history = useHistory()
 
-
       
 const handleSubmit = (event) => {
     event.preventDefault();
@@ -65,9 +64,10 @@ const handleSubmit = (event) => {
 
 
   return (
+ <div>
+    <div className="H7"><div>Step 1: Enter desired contact details and the QR Code below will update as you type.</div> <div>Step 2: Simply take a picture with phone or save as image to your local computer.</div></div>
 <div className="InputForm">
  <form className="RegForm" onSubmit={handleSubmit}>
- <div className="H7"> <strong>Step 1:</strong> Enter desired contact details and the QR Code below will update as you type. <br/><strong>Step 2:</strong> Simply take a picture with phone or save as image to your local computer.</div>
    <div className="InputField">
       <div className="FormField">
             <p className="Label">
@@ -77,56 +77,56 @@ const handleSubmit = (event) => {
           
            value={newForm.firstName} 
            name="firstName" 
-           placeholder="First Name"
+           
            onChange={onChange} 
             />
         </div> 
         <div className="FormField">
           <p className="Label">Last Name</p>
           <input
-           type="text" value={newForm.lastName} name="lastName" placeholder="Doe"onChange={onChange} 
+           type="text" value={newForm.lastName} name="lastName" onChange={onChange} 
             />
         </div> 
         <div className="FormField">
           <p className="Label">Suffix</p>
           <input
-           type="text" value={newForm.nameSuffix} name="nameSuffix" placeholder="Jr."onChange={onChange} 
+           type="text" value={newForm.nameSuffix} name="nameSuffix" onChange={onChange} 
             />
         </div> 
         <div className="FormField">
           <p className="Label">Cell Phone</p>
           <input
-          type="text" value={newForm.cellPhone} name="cellPhone" placeholder="312-555-1212" onChange={onChange}/>
+          type="text" value={newForm.cellPhone} name="cellPhone" onChange={onChange}/>
         </div> 
         <div className="FormField">
             <p className="Label">Email</p>
             <input
-               type="text" value={newForm.email} name="email" placeholder="johndoe@ACMECorporation.com" onChange={onChange} />
+               type="text" value={newForm.email} name="email" onChange={onChange} />
         </div>
         <div className="FormField">
           <p className="Label">Organization</p>
           <input
-           type="text" value={newForm.organization} name="organization" placeholder="ACME Corporation" onChange={onChange} />
+           type="text" value={newForm.organization} name="organization" onChange={onChange} />
         </div> 
         <div className="FormField">
           <p className="Label">Title</p>
           <input
-            type="text" value={newForm.title} name="title" placeholder="Software Developer" onChange={onChange}/>
+            type="text" value={newForm.title} name="title" onChange={onChange}/>
         </div> 
         <div className="FormField">
             <p className="Label">Website/URL</p>
             <input
-               type="text" value={newForm.url} name="url" placeholder="http://ACMECorporation.com" onChange={onChange} />
+               type="text" value={newForm.url} name="url" onChange={onChange} />
         </div>
         <div className="FormField">
           <p className="Label">Work Phone</p>
           <input
-          type="text" value={newForm.workPhone} name="workPhone" placeholder="312-555-1212" onChange={onChange}/>
+          type="text" value={newForm.workPhone} name="workPhone" onChange={onChange}/>
         </div> 
         <div className="FormField">
                 <p className="Label">Address/Location</p>
                 <input
-                  type="text" value={newForm.note} name="note" placeholder="12346 Main Street, Atlanta, GA 55555" onChange={onChange}/>
+                  type="text" value={newForm.note} name="note" onChange={onChange}/>
        </div>
        </div> 
     
@@ -135,8 +135,7 @@ const handleSubmit = (event) => {
         <div className="output">
           <div className="Add" style={{width:'250px', border:'solid 2px #F5F0EC'}}>
         <button type="submit"><strong> +  Add to VIRTUAL DIRECTORY after choosing category below</strong></button>
-        <div>
-          <select type="text" className="form-control form-control-lg" placeholder="Priority" name="role" value="" onChange={onChange} onSubmit={handleSubmit}>
+            <select type="text" className="form-control form-control-lg" placeholder="Priority" name="role" value="" onChange={onChange} onSubmit={handleSubmit}>
                 <option>Accounting & Tax Services</option>
                 <option>Arts, Culture & Entertainment</option>
                 <option>Auto Sales & Service</option>
@@ -164,11 +163,9 @@ const handleSubmit = (event) => {
                 <option>Wedding, Events & Meetings</option>
                 <option>Other</option>
             </select>
-         </div>
-          <button type="button"><Link to={`/cardList/`} className="Link">VIRTUAL DIRECTORY</Link></button>
-         </div>
-        
-         <div className="QRCodeBox">
+          <button type="button" onClick={"/cardList"}>VIRTUAL DIRECTORY</button>
+          </div>
+           <div className="QRCodeBox">
           <h4 style={{fontWeight:"bold"}}>QR Code (to save image, <br/> right-click -> Save Image As)</h4>
           <QRCode
   value={vCard.getFormattedString()}
@@ -180,14 +177,15 @@ const handleSubmit = (event) => {
   renderAs={"canvas"}
 />
         </div>
-           <div className="VCard">
+          <div className="VCard">
           <h4>VCard Data String</h4>
           <pre className="vCardoutput">{vCard.getFormattedString()}</pre>
-        </div>
+          </div>
+          </div>
+          </form>
       </div>
-     </form>
     </div>
-   )};
+  )};
 
 
 export default InputForm;
