@@ -9,7 +9,7 @@ html{
     background-image: url("https://www.teahub.io/photos/full/100-1000623_ultra-hd-maldives-wallpapers.jpg");
     /* margin-top: 40px; */
     background-position: top;
-   background-size: cover;
+   background-size: 100% 100%;
    font-family:sans-serif;
     }
  
