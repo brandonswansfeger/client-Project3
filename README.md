@@ -27,7 +27,9 @@ Version 2
 
 ![alt text](https://github.com/brandonswansfeger/client-Project3/blob/remote/Capture4.JPG?raw=true)
 
+![alt text](https://github.com/brandonswansfeger/client-Project3/blob/remote/Capture6.JPG?raw=true)
 
+![alt text](https://github.com/brandonswansfeger/client-Project3/blob/remote/Capture1.JPG?raw=true)
 
 # Geting Started
 
