@@ -25,7 +25,7 @@ vcard and CR Code generator
 
 Version 2
 
-![alt text](https://github.com/brandonswansfeger/addme-qrc/commit/f1090a60b3f62889cd7027a09c8431dd79571e6c "Version 2")
+![alt text](https://github.com/brandonswansfeger/client-Project3/blob/remote/Capture4.JPG?raw=true)
 
 
 
