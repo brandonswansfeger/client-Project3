@@ -2,14 +2,14 @@
 
 html{
   /* margin:40px; */
-  padding-top: 40px;
+  padding-top: 0;
   padding-bottom: 200px;
   }
  body {
-    background-image: url("https://webneel.com/wallpaper/sites/default/files/images/04-2013/15-beach-sea-photography.1440.jpg");
+    background-image: url("https://www.teahub.io/photos/full/100-1000623_ultra-hd-maldives-wallpapers.jpg");
     /* margin-top: 40px; */
-    background-position:center;
-   background-size: 100% 100%;
+    background-position: top;
+   background-size: contain;
    font-family:sans-serif;
     }
  
@@ -33,7 +33,7 @@ html{
  flex-direction: column;
  max: width 1000px 4px;
  width:90%;
- background-color:rgb(0,0,0,0.6);
+ background-color:rgb(0,0,0,0.7);
  /*margin:auto;
  */color:#FFFFFF;
  /*padding:10px 0px 10px 0px;
@@ -164,7 +164,7 @@ justify-content: space-between;
      /* flex-wrap: wrap; */
      align-items: center;
      /* justify-content: space-evenly; */
-      background-color:rgb(0,0,0,0.6);
+      background-color:rgb(0,0,0,0.7);
    max-width:1500px;
    margin: 50px;
    margin-top: 10px;
@@ -335,6 +335,7 @@ nav {
    */width: span;
    font-family: 'Racing Sans One', cursive;
    justify-self: center;
+   text-align: center;
    -webkit-border-radius: 6px;
    -moz-border-radius`1Z: 6px;
    -ms-border-radius: 6px;
