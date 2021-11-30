@@ -32,6 +32,9 @@ Version 2
 ![alt text](https://github.com/brandonswansfeger/client-Project3/blob/remote/Capture1.JPG?raw=true)
 
 # Geting Started
+Step 1: Enter desired contact details and the QR Code below will update as you type.
+Step 2: Simply take a picture with phone or save as image to your local computer.
+Optional: Can add virtual business card to onlne directory. Can edit qnd delete cards also. 
 
 
 
