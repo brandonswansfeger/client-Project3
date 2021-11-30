@@ -245,6 +245,7 @@ margin-top: 40px;
     font-family: Helvetica;
     flex-direction: column;
     max-width: 900px;
+    width: 80%;
     background-color:rgb(0, 0, 0, 0.6);
     color: white;
     align-self: center;
