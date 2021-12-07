@@ -4,12 +4,13 @@ html{
   /* margin:40px; */
   padding-top: 0;
   padding-bottom: 200px;
+  /* height: 100% */
   }
  body {
-    background-image: url("https://www.teahub.io/photos/full/100-1000623_ultra-hd-maldives-wallpapers.jpg");
+    background-image: url("https://i.pinimg.com/564x/34/fb/cb/34fbcb9d857c3d1383e1a05ed783c38f.jpg");
     /* margin-top: 40px; */
     background-position: top;
-   background-size: 100% 100%;
+   background-size: 100%;
    font-family:sans-serif;
     }
  
@@ -87,7 +88,7 @@ marketing {
 .table {
        width: 400px;
  background-color:rgb(0,0,0,0.6);
- font-size: 14px;
+ font-size: large;
  margin:auto;
  color:#FFFFFF;
  padding:10px 0px 10px 0px;
@@ -100,7 +101,7 @@ marketing {
  width: 80%;
  background-color:rgba(5, 5, 5, 0.411);
 justify-content: space-between;
- font-size: 16px;
+ font-size: large;
  font-weight: bolder;
  margin:auto;
  color:#366473;
@@ -221,7 +222,7 @@ justify-content: space-between;
    margin-top: 0;
    width: 125px;
             color: white;
-            font-size: 18px;
+            font-size: large;
             font-weight: 700;}
 h4 {
    margin-top: 15px;
@@ -241,7 +242,7 @@ margin-top: 40px;
 .H7 {
     display: flex;
     justify-items: center;
-    font-size: 15pt;
+    font-size: medium;
     font-family: Helvetica;
     flex-direction: column;
     max-width: 900px;
@@ -253,7 +254,7 @@ margin-top: 40px;
     justify-content: center;
     text-align: center;
     border-radius: ;
-    margin-top: 20px;
+    margin-top: 5px;
     margin-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
@@ -324,7 +325,7 @@ h2 {
   }
   
 nav {
-   font-size: 79px !important;
+   font-size: 60% !important;
    display: flex;
    flex-direction: column;
    align-content: center;
@@ -337,6 +338,7 @@ nav {
    font-family: 'Racing Sans One', cursive;
    justify-self: center;
    text-align: center;
+   justify-items: center;
    -webkit-border-radius: 6px;
    -moz-border-radius`1Z: 6px;
    -ms-border-radius: 6px;
@@ -344,10 +346,24 @@ nav {
    -moz-border-radius: 6px;
 }
 
+img {
+   align-self: center;
+   margin-left: 15px;
+   margin-bottom: 0;
+}
+
 h1 {
    font-family: 'Racing Sans One', cursive;
-   font-size: 72px;
-   color:rgba(7, 6, 6, 0.6);
+   margin-left: 10px;
+   padding: 5px;
+   font-size:xx-large;
+   color:rgba(240, 232, 232, 0.4);
+   background-color: rgba(7, 6, 6, 0.6);
+   border-radius: 6px;
+   -webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+   -ms-border-radius: 6px;
+   -o-border-radius: 6px;
 }
 
 textarea {
@@ -510,7 +526,7 @@ textarea {
    .Heading {
       /* width: span; */
       font-family: 'Racing Sans One', cursive;
-      font-size: 40px;
+      font-size: x-large;
       /* background-color:rgb(0,0,0,0.7); */
       margin-top: 30px;
       width: span;
