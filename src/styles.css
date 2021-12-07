@@ -179,6 +179,7 @@ justify-content: space-between;
   } 
   .rowBtn {
      display:inline-flex;
+     flex-wrap: wrap;
   }
 
   pre.vCardoutput{
