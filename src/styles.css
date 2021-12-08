@@ -357,9 +357,9 @@ h1 {
    font-family: 'Racing Sans One', cursive;
    margin-left: 10px;
    padding: 5px;
-   font-size:xx-large;
-   color:rgba(240, 232, 232, 0.4);
-   background-color: rgba(7, 6, 6, 0.6);
+   font-size:xxx-large;
+   color:rgba(7, 6, 6, 0.6);
+   /* background-color: ; */
    border-radius: 6px;
    -webkit-border-radius: 6px;
    -moz-border-radius: 6px;
