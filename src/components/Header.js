@@ -12,12 +12,10 @@ function Header(props) {
     <
     Link to = "/" >
     <
-    h1 > AddMe - QRC < /h1> <
-    /Link> <
-    h2 >. . . . create your own personal QR Code< /h2>
-    <img src="https://i.ibb.co/ydKxNzT/hand-rtrabsparent.png" alt="alternatetext"  width="100" height="100"></img>
-    <
-    /nav>
+    h1 > AddMe-QRC <span style={{fontSize:"large"}}>. . . . create your own personal QR Code</span>< /h1> <
+    /Link> 
+   
+    </nav>
   );
 }
 

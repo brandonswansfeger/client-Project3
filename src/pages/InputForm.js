@@ -68,7 +68,6 @@ const handleSubmit = (event) => {
     <div className="H7"><div>Step 1:</div><div>Enter desired contact details and the QR Code below will update as you type.</div> </div>
 <div className="H7"><div>Step 2:</div><div>Simply take a picture with phone or save as image to your local computer.</div></div>
 
-<div className="InputForm">
  <form className="RegForm" onSubmit={handleSubmit}>
    <div className="InputField">
       <div className="FormField">
@@ -130,13 +129,13 @@ const handleSubmit = (event) => {
                 <input
                   type="text" value={newForm.note} name="note" onChange={onChange}/>
        </div>
-       </div> 
+ 
     
       
          
-        <div className="output">
+        <div className="Output">
           <div className="Add" style={{width:'250px', border:'solid 2px #F5F0EC'}}>
-        <button type="submit"><strong> +  Add to VIRTUAL DIRECTORY after choosing category below</strong></button>
+            <button type="submit"><strong> +  Add to VIRTUAL DIRECTORY after choosing category below</strong></button>
             <select type="text" className="form-control form-control-lg" placeholder="Priority" name="role" value="" onChange={onChange} onSubmit={handleSubmit}>
                 <option>Accounting & Tax Services</option>
                 <option>Arts, Culture & Entertainment</option>
@@ -167,27 +166,28 @@ const handleSubmit = (event) => {
             </select>
           {/* <button type="button" onClick={"/cardList"}>VIRTUAL DIRECTORY</button> */}
           </div>
-           <div className="QRCodeBox">
-          <h4 style={{fontWeight:"bold"}}>QR Code (to save image, <br/> right-click -> Save Image As)</h4>
-          <QRCode
+          
+          <div className="QRCodeBox">
+            <h4 style={{fontWeight:"bold"}}>QR Code (to save image, <br/> right-click -> Save Image As)</h4>
+            <QRCode
   value={vCard.getFormattedString()}
   size={128}
   bgColor={"#90d9d1"}
   fgColor={"#013e5d"}
   level={"L"}
   includeMargin={false}
-  renderAs={"canvas"}
-/>
+  renderAs={"canvas"} />
         </div>
           <div className="VCard">
-          <h4>VCard Data String</h4>
-          <pre className="vCardoutput">{vCard.getFormattedString()}</pre>
+              <h4>VCard Data String</h4>
+              <pre className="vCardoutput">{vCard.getFormattedString()}</pre>
           </div>
-          </div>
-          </form>
-      </div>
+        </div>
+  
+    </div> 
+  </form>
     </div>
-  )};
+)};
 
 
 export default InputForm;
